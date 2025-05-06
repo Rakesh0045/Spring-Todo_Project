@@ -7,7 +7,7 @@ A simple and elegant To-Do List web app built using **Spring Boot**, **Thymeleaf
 
 ## 📸 Preview
 
-![To-Do App UI](todo-app/images/todoapp.png)
+![To-Do App UI](todo-app/src/main/resources/static/images/todoapp.png)
 
 ---
 
@@ -48,7 +48,6 @@ todo\_app/
 
 ````
 
----
 
 ## ⚙️ How It Works
 
@@ -103,16 +102,11 @@ Then open your browser and go to:
 http://localhost:8080
 ```
 
----
 
 ## 📌 Notes
 
 * No database is used — all data is stored in-memory and will reset on app restart.
 * Use of `List<Todo>` for task storage keeps it beginner-friendly.
-
----
-
-
 
 ---
 
