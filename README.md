@@ -7,7 +7,7 @@ A simple and elegant To-Do List web app built using **Spring Boot**, **Thymeleaf
 
 ## 📸 Preview
 
-![To-Do App UI](images/todo.png)
+![To-Do App UI](todo-app/images/todoapp.png)
 
 ---
 
@@ -112,11 +112,7 @@ http://localhost:8080
 
 ---
 
-## 📷 UI Snapshot
 
-### Main Interface:
-
-![UI Screenshot](images/screenshot.png)
 
 ---
 
@@ -140,6 +136,6 @@ This project is open-source and free to use under the [MIT License](LICENSE).
 
 Feel free to fork, contribute, or raise issues!
 
-**Made with 💙 by \[Rakesh]**
+**Made with 💙 by \Rakesh**
 
 
