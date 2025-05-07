@@ -1,4 +1,3 @@
-
 # 📝 To-Do List Web Application
 
 A simple and elegant To-Do List web app built using **Spring Boot**, **Thymeleaf**, **HTML/CSS**, and basic **Java** collections for backend storage. This project demonstrates how to build a full-stack web application without using a database — all tasks are stored in memory during runtime.
@@ -30,15 +29,19 @@ todo\_app/
 │   └── main/
 │       ├── java/
 │       │   └── com/todo/todo\_app/
-│       │       ├── TodoAppApplication.java
-│       │       ├── Todo.java
-│       │       └── TodoController.java
+│       │       ├── controller/
+│       │       │   └── TodoController.java
+│       │       ├── model/
+│       │       │   └── Todo.java
+│       │       ├── service/
+│       │       │   └── TodoService.java
+│       │       └── TodoAppApplication.java
 │       └── resources/
 │           ├── static/
 │           │   ├── css/
 │           │   │   └── style.css
 │           │   └── images/
-│           │       ├── todo.png
+│           │       ├── todoapp.png
 │           │       ├── checked.png
 │           │       └── unchecked.png
 │           └── templates/
@@ -48,6 +51,7 @@ todo\_app/
 
 ````
 
+---
 
 ## ⚙️ How It Works
 
@@ -102,6 +106,7 @@ Then open your browser and go to:
 http://localhost:8080
 ```
 
+---
 
 ## 📌 Notes
 
@@ -117,6 +122,7 @@ http://localhost:8080
 * Add due dates and priority for tasks.
 * Add user login/authentication.
 * Use JavaScript for AJAX-based operations.
+* Add pagination or filters.
 
 ---
 
@@ -130,6 +136,6 @@ This project is open-source and free to use under the [MIT License](LICENSE).
 
 Feel free to fork, contribute, or raise issues!
 
-**Made with 💙 by \Rakesh**
+**Made with 💙 by Rakesh**
 
-
+```
